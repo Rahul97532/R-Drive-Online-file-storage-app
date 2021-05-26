@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: lightgray;
+    padding: 0 2%;
+    align-items: center;
+}
+
+.brand {
+    text-decoration: none;
+    color: gray;
+    font-size: 3rem;
+}
+
+.User_Profile {
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray;
+}

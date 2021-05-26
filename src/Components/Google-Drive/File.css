@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+}
+
+.user_file {
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 1rem;
+    width: 8rem;
+    color: black;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user_file:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s all linear;
+}

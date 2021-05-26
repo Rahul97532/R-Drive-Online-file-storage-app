@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.breadcrumbs_path {
+    flex: 2;
+    margin-right: 5%;
+}
+
+.addButtons {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+/* .addfile {
+    right: 10px;
+    margin: 10%;
+    width: 100%;
+} */
+
+.folder_section,
+.file_section {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.folder_div,
+.file_div {
+    /* width: 25%; */
+    font-size: 1.3rem;
+    /* border: 2px solid black; */
+    margin: 2%;
+    /* width: auto; */
+}
+
+.folder,
+.files {
+    border: 2px solid black;
+    border-radius: 7%;
+    padding: 5%;
+}
+
+.folder:hover {
+    background-color: rgb(39, 36, 36);
+    color: white;
+    transition: 0.2s all linear;
+}

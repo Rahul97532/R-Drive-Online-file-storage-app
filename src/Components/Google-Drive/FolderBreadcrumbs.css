@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.whole_breadcrumb {
+    margin: 1%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 100%;
+}
+
+.breadcrumb {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    color: rgb(149, 149, 255);
+    /* background-color: violet; */
+}
+
+.breadcrumb_link {
+    text-decoration: none;
+    margin: 0%;
+    /* color: black; */
+    /* background-color: aqua; */
+}
+
+.breadcrumb span {
+    margin: 0% 0.5%;
+}
+
+.current_folder_name {
+    font-size: 1rem;
+    margin: 0;
+    width: 100%;
+}
